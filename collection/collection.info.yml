@@ -1,0 +1,6 @@
+name: Collection
+type: module
+description: ‘Collection module’
+package: collection
+core: 8.x
+version: ‘8.x’

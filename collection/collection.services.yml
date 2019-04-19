@@ -1,0 +1,10 @@
+services:
+  collection.route_subscriber:
+    class: Drupal\collection\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
+      
+  collection.breadcrumb:
+   class: Drupal\collection\Breadcrumb\CollectionBreadcrumbBuilder
+   tags:
+     - { name: breadcrumb_builder, priority: 100 }

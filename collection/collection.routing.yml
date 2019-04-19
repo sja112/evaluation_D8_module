@@ -1,0 +1,7 @@
+collection.ctrlRoute:
+  path: '/ctrlRoute'
+  defaults: 
+    _controller: '\Drupal\collection\Controller\CollectionController::content'
+    _title: 'Controller Serving Route'
+  requirements:
+    _permission: 'access content'
